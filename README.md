@@ -1,6 +1,6 @@
 # Prototype renderer using Rust and WebGPU.
 
-Mostly based off of the excellent WebGPU tutorial (*Learn Wgpu*)[https://sotrh.github.io/learn-wgpu],
+Mostly based off of the excellent WebGPU tutorial [*Learn Wgpu*](https://sotrh.github.io/learn-wgpu),
 but with some modifications e.g. replaced `cgmath` with `nalgebra`.
 
 ## Requirements
@@ -19,6 +19,6 @@ cargo run
 ```bash
 wasm-pack build --target web
 ```
-Then open the `index.html` locally in your browser of preference.
+Then open the `index.html` locally using a live server.
 
 
